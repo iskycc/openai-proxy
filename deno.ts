@@ -1,6 +1,6 @@
 import { serve } from "https://deno.land/std@0.181.0/http/server.ts";
 
-const OPENAI_API_HOST = "ai.isky.run";
+const OPENAI_API_HOST = "ai.ifly.ren";
 
 serve(async (request) => {
   const url = new URL(request.url);
